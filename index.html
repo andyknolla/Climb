@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html ng-app="goalsApp">
+  <head>
+    <meta charset="utf-8">
+    <title>Climb</title>
+    <link href="simple-grid.min.css" type="text/css" rel="stylesheet">
+    <link href="styles.css" type="text/css" rel="stylesheet">
+
+  </head>
+  <body ng-controller="mainController">
+    <div class="container">
+      <div class="row">
+        <div class="col-3">Hello world</div>
+        <div class="col-5">dirka</div>
+        <div class="col-3"> stuff </div>
+        <ul>
+          <li ng-repeat="goal in goals"> {{ goal.name }} </li>
+        </ul>
+      </div>
+      <input type="text" ng-model="test">{{test}}
+      <p> {{ test }} </p>
+    </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+  <script type="text/javascript" src="angular/goalsApp.js"></script>
+
+  </script>
+
+  </script>
+  </body>
+</html>
