@@ -1,12 +1,12 @@
 var goalsApp = angular.module('goalsApp', []);
 
-goalsApp.controller('mainController', function($scope) {
-  $scope.goals = [
-    {name:'Andy', goal: 'Patagonia'},
-    {name: 'Mike', goal: 'Norway'}
-  ];
-});
-
+// goalsApp.controller('mainController', function($scope) {
+//   $scope.goals = [
+//     {name:'Andy', goal: 'Patagonia'},
+//     {name: 'Mike', goal: 'Norway'}
+//   ];
+// });
+//
 
 
 

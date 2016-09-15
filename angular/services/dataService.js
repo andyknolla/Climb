@@ -1,11 +1,12 @@
-app.service('dataService', function() {
+goalsApp.service('dataService', function() {
 
-    this.logStuff = function() {
-    console.log('service!' , data[0].name)
+    this.getStuff = function() {
+      return data;
     }
-})
 
-var data = [
-{name:'Andy', goal: 'Patagonia'},
-{name: 'Mike', goal: 'Norway'}
-]
+    var data = [
+    {name:'Andy', goal: 'Patagonia'},
+    {name: 'Mike', goal: 'Norway'}
+    ]
+
+})
